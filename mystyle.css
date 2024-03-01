@@ -1,0 +1,103 @@
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1368CE;
+}
+
+div.box {
+    background-color: #fff;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 27%;
+    margin-top: 100px;
+}
+
+.box h1 {
+    font-size: 40px;
+    color: #0542B9;
+    font-weight: 600;
+    border-bottom: 2px dashed black;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.button{
+    background: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button:hover{
+    background: black;
+    color: #fff; 
+}
+
+#next-page {
+    background: #0542B9;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px;
+    width: 150px;
+    display:  none;
+    align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 275px;
+}
+
+.correct{
+    background: #9aeabc
+}
+.incorrect{
+    background:#ff9393
+}
+    
